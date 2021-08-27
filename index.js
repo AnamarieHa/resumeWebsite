@@ -7,4 +7,4 @@ const PORT = process.env.PORT || 8000;
 // set static folder
 app.use(express.static(path.join(__dirname, 'template')));
 
-app.listen(PORT, () => console.log('Server is listening on port ' + PORT));
+app.listen(PORT, () => console.log('Server is listening on port  ' + PORT));
